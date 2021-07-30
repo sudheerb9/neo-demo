@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <Navbar />
         <Homepageslider/>
-      {/*<Banner />*/}
+      {/* <Banner /> */}
       <KeyFeatures />
         <div className={'justify-content-center'}>
             <Principal />

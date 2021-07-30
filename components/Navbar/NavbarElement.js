@@ -7,6 +7,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import logo from '../../public/images/Logo4.png';
+import { Link } from '@material-ui/core';
 
 
 function Navbar(){
@@ -178,8 +179,8 @@ function Navbar(){
                                     <div className={NavbarToggler.itemsclass} id="navbarNav">
                                         <ul className={'navbar-nav'}>
                                             <li className={'nav-item active'}>
-                                                <a className={'nav-link'} href="/">Home
-                                                </a>
+                                                <Link className={'nav-link'} href="/">Home
+                                                </Link>
                                             </li>
                                             {/* <li className={'nav-item'}>
                                                 <a className={'nav-link'} href="about">About us</a>

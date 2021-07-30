@@ -7,6 +7,7 @@ import {
     CarouselCaption
 } from 'reactstrap';
 import logo from '../../public/images/slider/slid_1.jpg'
+import Image from 'next/image'
 
 const items = [
     {
@@ -48,7 +49,7 @@ const Example = (props) => {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img src={item.src} alt={item.altText} />
+                <Image src={item.src} alt={item.altText} />
                 <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
             </CarouselItem>
         );
