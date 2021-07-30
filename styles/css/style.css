@@ -24,6 +24,9 @@ ul, ol {
 li {
   list-style: none; }
 
+.ull li {
+  list-style: circle ;}
+
 a {
   text-decoration: none; }
 

@@ -18,7 +18,7 @@ function Testimonial() {
                 <div className={'row'}>
                     <div className={'col'}>
                         <div className={'testimonial'}>
-                            <img
+                            <Image
                                 src={'https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'}
                                 alt=""
                             />
@@ -38,7 +38,7 @@ function Testimonial() {
 
                     <div className={'col'}>
                         <div className={'testimonial'}>
-                            <img
+                            <Image
                                 src="https://images.pexels.com/photos/3585325/pexels-photo-3585325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                 alt=""/>
                                 <div className={'name'}>John Waddrob</div>
@@ -57,7 +57,7 @@ function Testimonial() {
 
                     <div className={'col'}>
                         <div className={'testimonial'}>
-                            <img
+                            <Image
                                 src="https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                 alt=""/>
                                 <div className={'name'}>John Waddrob</div>
