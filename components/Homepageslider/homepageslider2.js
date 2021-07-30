@@ -20,15 +20,14 @@ const items = [
 
 ];
 
-const Example = () => (
+const Homepageslider = () => (
   <Row>
-    <Col md="8" className="mx-auto">
+    <Col md="12" className="mx-auto">
       <UncontrolledCarousel items={items} />
     </Col>
   </Row>
 );
 
-export default Example;
 }
 
 export default Homepageslider;
