@@ -49,7 +49,7 @@ const Homepageslider = (props) => {
             onExited={() => setAnimating(false)}
             key={item.src}
         >
-          <Image src={item.src} alt={item.altText} style={{"width" : "100%", "height":"100%"}} />
+          <Image src={item.src} alt={item.altText} width="100%" height="100%" style={{"width" : "100%", "height":"100%"}} />
           {/*<div className={'carousel-caption fvgb d-none d-md-block'}>*/}
           {/*  <h5 className={'animated bounceInDown cartext' }>Create an Awesome Website Today </h5>*/}
           {/*  <p className={'animated bounceInLeft cartext'}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, <br/>*/}
