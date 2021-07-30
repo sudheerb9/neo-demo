@@ -49,15 +49,15 @@ const Homepageslider = (props) => {
             key={item.src}
         >
           <img src={item.src} alt={item.altText} style={{"width" : "100%", "height":"100%"}} />
-          <div className={'carousel-caption fvgb d-none d-md-block'}>
-            <h5 className={'animated bounceInDown cartext' }>Create an Awesome Website Today </h5>
-            <p className={'animated bounceInLeft cartext'}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, <br/>
-              aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis <br/>
-              sed sagittis at, sagittis quis neque. Praesent.</p>
-            <div className={'row vbh'}>
-              <div className={'btn btn-success animated bounceInUp'}> Apply Online</div>
-            </div>
-          </div>
+          {/*<div className={'carousel-caption fvgb d-none d-md-block'}>*/}
+          {/*  <h5 className={'animated bounceInDown cartext' }>Create an Awesome Website Today </h5>*/}
+          {/*  <p className={'animated bounceInLeft cartext'}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, <br/>*/}
+          {/*    aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis <br/>*/}
+          {/*    sed sagittis at, sagittis quis neque. Praesent.</p>*/}
+          {/*  <div className={'row vbh'}>*/}
+          {/*    <div className={'btn btn-success animated bounceInUp'}> Apply Online</div>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
         </CarouselItem>
     );
   });

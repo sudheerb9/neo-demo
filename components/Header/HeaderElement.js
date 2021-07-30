@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {HiOutlineChevronDoubleRight} from 'react-icons/hi'
 function HeaderElement(props) {
     return(
         <section className={"abt-01"}>
@@ -9,7 +9,7 @@ function HeaderElement(props) {
                     <div className={"seting"}>
                         <h3>{props.name}</h3>
                         <ol>
-                            <li>Home <i className={"fas fa-chevron-double-right"}></i></li>
+                            <li>Home <i className={"fas fa-chevron-double-right"}><HiOutlineChevronDoubleRight/></i></li>
                             <li>{props.name}</li>
                         </ol>
                     </div>

@@ -124,11 +124,11 @@ function Navbar(){
                                 <ul className={'ulleft'}>
                                     <li className={'row'}>
                                         <i className={'far fa-envelope'}><MailOutlineIcon/></i>
-                                        sales@smarteyeapps.com
+                                        info@neomentors.in
                                         <span>|</span> &nbsp; &nbsp;</li>
                                     <li className={'row'}>
                                         <i className={'fas fa-phone-volume'}><PhoneIcon/></i>
-                                        +876 987 666 5433
+                                        +91 9704558792
                                     </li>
                                 </ul>
                             </div>
