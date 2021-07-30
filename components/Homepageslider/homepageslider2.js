@@ -10,11 +10,11 @@ import Image from 'next/image'
 
 const items = [
   {
-    src: '../../../public/images/slider/3.jpg',
+    src: '../../public/images/slider/3.jpg',
     altText: 'Slide 1',
   },
   {
-    src: '../../..//public/images/slider/3.jpg',
+    src: '../..//public/images/slider/3.jpg',
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
