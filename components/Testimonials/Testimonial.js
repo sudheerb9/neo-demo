@@ -9,7 +9,7 @@ function Testimonial() {
         <div className={'testimonials'}>
             <div className={'testimonial-inner'}>
                 <div className={"heading"}>
-                    <h2>What does parents say</h2>
+                    <h2>Testimonials</h2>
                     <span></span>
                 </div>
 
@@ -18,10 +18,10 @@ function Testimonial() {
                 <div className={'row'}>
                     <div className={'col'}>
                         <div className={'testimonial'}>
-                            <Image
-                                src={'https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'}
-                                alt=""
-                            />
+                            {/*<Image*/}
+                            {/*    src={'https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'}*/}
+                            {/*    alt=""*/}
+                            {/*/>*/}
                                 <div className={'name'}>John Waddrob</div>
                                 {/*<div className="stars">*/}
                                 {/*    <i className="fas fa-star"></i>*/}
@@ -38,9 +38,9 @@ function Testimonial() {
 
                     <div className={'col'}>
                         <div className={'testimonial'}>
-                            <Image
-                                src="https://images.pexels.com/photos/3585325/pexels-photo-3585325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                                alt=""/>
+                            {/*<Image*/}
+                            {/*    src="https://images.pexels.com/photos/3585325/pexels-photo-3585325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"*/}
+                            {/*    alt=""/>*/}
                                 <div className={'name'}>John Waddrob</div>
                                 {/*<div className="stars">*/}
                                 {/*    <i className="fas fa-star"></i>*/}
@@ -57,9 +57,9 @@ function Testimonial() {
 
                     <div className={'col'}>
                         <div className={'testimonial'}>
-                            <Image
-                                src="https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                                alt=""/>
+                            {/*<Image*/}
+                            {/*    src="https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"*/}
+                            {/*    alt=""/>*/}
                                 <div className={'name'}>John Waddrob</div>
                                 {/*<div className="stars">*/}
                                 {/*    <i className="fas fa-star"></i>*/}

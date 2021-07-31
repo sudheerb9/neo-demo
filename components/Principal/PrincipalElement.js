@@ -6,15 +6,13 @@ import profilePic from '../../public/images/team/1.jpg'
 
 function Principal (){
     return(
-        <div className={'princ-comp'}>
+        <div className={'princ-comp'} style={{marginBottom:'30px'}}>
             <div className={"heading"}>
                 <h2>Our Principal</h2>
                 <span></span>
             </div>
            
-            <Container >
-                <Row className={'cen pric'}><h2><b>Meet Our Principal</b></h2></Row>
-                <br></br>
+            <Container>
                 <Row className={'justify-content-center'}>
                     <Col sm={12} md={3} lg={3} xs={12} className={'justify-content-center'} style={{'display' : 'block'}}>
                         <Image src={profilePic} alt="Principal image" layout="responsive" />

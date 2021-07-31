@@ -4,6 +4,9 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import {SiGmail} from 'react-icons/si'
+import {FaPhoneAlt} from 'react-icons/fa'
+import {ImLocation} from 'react-icons/im'
 import logo from '../../public/images/logoneo.jpg';
 
 function Fotter() {
@@ -24,16 +27,16 @@ function Fotter() {
                                  {/* <Image src={logo} alt="Logo" width={200} height={40} layout="responsive" />  */}
                                 <ol>
                                     <li>
-                                        <i className={'fab fa-facebook-square'}> <a href={'/'}><FacebookIcon/></a> </i>
+                                        <i className={'fab fa-facebook-square'}> <a href={'/'} className={'new_icons'}><FacebookIcon /></a> </i>
                                     </li>
                                     <li>
-                                        <i className={'fab fa-twitter-square'}> <a href={'/'}><TwitterIcon/></a> </i>
+                                        <i className={'fab fa-twitter-square'}> <a href={'/'} className={'new_icons'} ><TwitterIcon/></a> </i>
                                     </li>
                                     <li>
-                                        <i className={'fab fa-instagram'}> <a href={'/'}><InstagramIcon/></a> </i>
+                                        <i className={'fab fa-instagram'}> <a href={'/'} className={'new_icons'}><InstagramIcon/></a> </i>
                                     </li>
                                     <li>
-                                        <i className={'fab fa-linkedin'}> <a href={'/'}><LinkedInIcon/></a> </i>
+                                        <i className={'fab fa-linkedin'}> <a href={'/'} className={'new_icons'}><LinkedInIcon/></a> </i>
                                     </li>
                                 </ol>
                             </div>
@@ -77,9 +80,9 @@ function Fotter() {
                             <div className={"head-footer"}>
                                 <h3>find us</h3>
                                 <ul className={"un-hover"}>
-                                    <li><i className={"far fa-location"}></i>Marthandam</li>
-                                    <li><i className={"fas fa-mobile-alt"}></i>+91 9751791203</li>
-                                    <li><i className={"far fa-envelope"}></i>sales@smarteyeapps.com</li>
+                                    <li><i className={"far fa-location"}><ImLocation/></i>Hyderabad</li>
+                                    <li><i className={"fas fa-mobile-alt"}><FaPhoneAlt/></i>+91 9704558792</li>
+                                    <li><i className={"far fa-envelope"}><SiGmail/></i>info@neomentors.in</li>
                                 </ul>
                             </div>
                         </div>

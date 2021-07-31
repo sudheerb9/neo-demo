@@ -124,11 +124,11 @@ function Navbar(){
                             <div className={'col-lg-6 d-none d-lg-block'}>
                                 <ul className={'ulleft'}>
                                     <li className={'row'}>
-                                        <i className={'far fa-envelope'}><MailOutlineIcon/></i>
+                                        <i className={'far fa-envelope'}><MailOutlineIcon className={'new_icons'}/></i>
                                         info@neomentors.in
                                         <span>|</span> &nbsp; &nbsp;</li>
                                     <li className={'row'}>
-                                        <i className={'fas fa-phone-volume'}><PhoneIcon/></i>
+                                        <i className={'fas fa-phone-volume'}><PhoneIcon className={'new_icons'} /></i>
                                         +91 9704558792
                                     </li>
                                 </ul>
@@ -136,16 +136,16 @@ function Navbar(){
                             <div className={'col-lg-6 col-md-12'}>
                                 <ul className={'ulright no-margin'}>
                                     <li>
-                                        <i className={'fab fa-facebook-square-light'}><a href={'/'}><FacebookIcon/></a></i>
+                                        <i className={'fab fa-facebook-square-light'}><a href={'/'} className={'new_icons'}><FacebookIcon/></a></i>
                                     </li>
                                     <li>
-                                        <i className={'fab fa-twitter-square'}><a href={'/'}><TwitterIcon/></a></i>
+                                        <i className={'fab fa-twitter-square'}><a href={'/'} className={'new_icons'}><TwitterIcon/></a></i>
                                     </li>
                                     <li>
-                                        <i className={'fab fa-instagram'}><a href={'/'}><InstagramIcon/></a></i>
+                                        <i className={'fab fa-instagram'}><a href={'/'} className={'new_icons'}><InstagramIcon/></a></i>
                                     </li>
                                     <li>
-                                        <i className={'fab fa-linkedin'}><a href={'/'}><LinkedInIcon/></a></i>
+                                        <i className={'fab fa-linkedin'}><a href={'/'} className={'new_icons'}><LinkedInIcon/></a></i>
                                     </li>
                                 </ul>
                             </div>

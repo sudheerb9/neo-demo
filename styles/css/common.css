@@ -81,3 +81,12 @@
         display: none;
     }
 }
+
+.new_icons{
+    color:white;
+
+}
+
+.new_icons a:hover{
+    color: black;
+}

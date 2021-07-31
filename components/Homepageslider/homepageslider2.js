@@ -7,14 +7,16 @@ import {
   CarouselCaption,
 } from 'reactstrap';
 import Image from 'next/image'
+import image1 from '../../public/images/slider/3.jpg'
+import profilePic from "../../public/images/team/1.jpg";
 
 const items = [
   {
-    src: '../../public/images/slider/3.jpg',
+    src: '/../../public/images/slider/3.jpg',
     altText: 'Slide 1',
   },
   {
-    src: '../../public/images/slider/3.jpg',
+    src: '/../../public/images/slider/3.jpg',
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
@@ -49,7 +51,8 @@ const Homepageslider = (props) => {
             onExited={() => setAnimating(false)}
             key={item.src}
         >
-          <Image src={item.src} alt={item.altText} width="100%" height="100%"/>
+          {/*<Image src={profilePic} alt="Principal image" layout="responsive" />*/}
+          <Image src={item.src} alt={item.altText} layout="fill"/>
           {/*<div className={'carousel-caption fvgb d-none d-md-block'}>*/}
           {/*  <h5 className={'animated bounceInDown cartext' }>Create an Awesome Website Today </h5>*/}
           {/*  <p className={'animated bounceInLeft cartext'}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, <br/>*/}

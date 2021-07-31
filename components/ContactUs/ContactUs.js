@@ -40,7 +40,7 @@ function ContactUs() {
         event.preventDefault();
         axios.post('https://cors-anywhere.herokuapp.com/https://maker.ifttt.com/trigger/Mail/with/key/0Z91p35KynJZtHGCLzr0R',{
             value1:"rohithbheema27@gmail.com",
-            value2:"rohithbheema27@gmail.com",
+            value2:form_State.email,
             value3:form_State.body},{
             headers: {
                 "access-control-allow-origin" : "*",
