@@ -17,7 +17,7 @@ function Principal (){
                 <br></br>
                 <Row className={'justify-content-center'}>
                     <Col sm={12} md={3} lg={3} xs={12} className={'justify-content-center'} style={{'display' : 'block'}}>
-                        <Image src={profilePic} alt="Principal image" layout="responsive" />
+                        <Image src={profilePic} alt="Principal image" layout="fill" />
                     </Col>
                     <Col sm={12} md={9} lg={9} xs={12} style={{marginTop : '10px'}}>
                       <h4 align="center">Mfghjj.Rykknjnhh</h4>

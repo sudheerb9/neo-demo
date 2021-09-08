@@ -5,7 +5,7 @@ function CourceCardElement(props) {
     return(
         <div className={"col-md-4 col-sm-6 cord-div"}>
                      <div className={"cours-card"}>
-                         <Image src={props.image} alt="Middle" />
+                         <Image src={props.image} alt="Middle" layout="fill"/>
                          <div className={"cours-name"}>
                              <h2>{props.name}</h2>
                          </div>

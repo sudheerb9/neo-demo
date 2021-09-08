@@ -7,7 +7,7 @@ function TestmoniesCard(props) {
     <div className={"col-lg-4 col-md-4 col-sm-6 col-12"}>
                     <article className={"blog-sub"}>
                         <div className={"blog-content"}>
-                            <Image src={props.image} />
+                            <Image src={props.image} layout="fill"/>
                         </div>
                         <div className={"blog-content-section"}>
                             <div className={"blo-content-title"}>

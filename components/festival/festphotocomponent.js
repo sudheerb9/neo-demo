@@ -8,7 +8,7 @@ function ImageGallaryElement(props) {
                 <div className={"my-card"}>
                     <ul>
                         <li>
-                            <Image src={props.image} />
+                            <Image src={props.image} layout="fill"/>
                         </li>
                     </ul>
                 </div>

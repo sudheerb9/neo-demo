@@ -8,7 +8,7 @@ function SchoolInfraElement(props) {
                 <div className={"my-card"}>
                     <ul>
                         <li>
-                            <Image src={props.image} />
+                            <Image src={props.image} layout="fill"/>
                         </li>
                         <h4>{props.name}</h4>
                     </ul>

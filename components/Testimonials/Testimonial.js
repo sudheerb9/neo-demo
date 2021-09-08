@@ -20,7 +20,7 @@ function Testimonial() {
                         <div className={'testimonial'}>
                             <Image
                                 src={'https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'}
-                                alt=""
+                                alt="" layout="fill"
                             />
                                 <div className={'name'}>John Waddrob</div>
                                 {/*<div className="stars">*/}
@@ -40,7 +40,7 @@ function Testimonial() {
                         <div className={'testimonial'}>
                             <Image
                                 src="https://images.pexels.com/photos/3585325/pexels-photo-3585325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                                alt=""/>
+                                alt="" layout="fill"/>
                                 <div className={'name'}>John Waddrob</div>
                                 {/*<div className="stars">*/}
                                 {/*    <i className="fas fa-star"></i>*/}
@@ -59,7 +59,7 @@ function Testimonial() {
                         <div className={'testimonial'}>
                             <Image
                                 src="https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                                alt=""/>
+                                alt="" layout="fill"/>
                                 <div className={'name'}>John Waddrob</div>
                                 {/*<div className="stars">*/}
                                 {/*    <i className="fas fa-star"></i>*/}

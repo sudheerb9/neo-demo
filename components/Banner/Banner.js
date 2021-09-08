@@ -49,7 +49,7 @@ const Example = (props) => {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <Image src={item.src} alt={item.altText} />
+                <Image src={item.src} alt={item.altText} layout="fill" />
                 <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
             </CarouselItem>
         );

@@ -50,7 +50,7 @@ function Stats() {
 
               <div className={"col-lg-6 col-md-6 col-12"}>
                 <div className={"cal-box"}>
-                    <Image src={slider1} />
+                    <Image src={slider1} layout="fill" />
                 </div>
               </div>
           </div>
